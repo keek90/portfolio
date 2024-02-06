@@ -12,7 +12,7 @@ h1{
     background: linear-gradient(45deg, #7ac5d2, #8564f1);
     border-radius: 30px;
 }
-h2{
+.v{
     color:rgb(87, 51, 216);
     background: linear-gradient(45deg, #50d3eb, #57bae8);
     font-style: italic;
@@ -40,9 +40,10 @@ img{
     margin: 10px;
     position: relative; /* Set the position property to enable positioning */
     top: 10px; /* Move the box 50px down from the top */
-    bottom: 500px;
+    bottom: 270px;
     width: 500px;
     left: 50px;
+    height: 250px;
 }
 .t1{
     align-items: center;
@@ -54,6 +55,38 @@ img{
     background: linear-gradient(45deg, #6683e1, #91d3f1);
     margin: 10px;
     position: relative; /* Set the position property to enable positioning */
-    top: 10px; /* Move the box 50px down from the top */
+    height: 170px;
    
+}
+.t2{
+    align-items: center;
+    color: rgb(26, 69, 99);
+    background-color: #6ab4e6; /* Set the background color */
+    border: 2px solid #56a7dd; /* Set the border with color */
+    border-radius: 20px 20px 30px 40px; /* Optional: Add border-radius for rounded corners */
+    padding: 30px; /* Optional: Add padding inside the box */
+    margin: 10px;
+    position: relative; /* Set the position property to enable positioning */
+    width: 500px;
+    background: linear-gradient(45deg, #8ee5f4, #91d3f1);
+    height: 250px;
+    bottom: 310px;
+    /* Initial position */
+    margin-left: 0;
+  /* Add a class to move the box to the right */
+    margin-left: 900px; /* Adjust the value as needed */
+}
+.j{
+    color: rgb(33, 51, 103);
+}
+.t3{
+    align-items: center;
+    color: rgb(26, 69, 99);
+    background-color: #6ab4e6; /* Set the background color */
+    border: 2px solid #56a7dd; /* Set the border with color */
+    border-radius: 20px 20px 30px 40px; /* Optional: Add border-radius for rounded corners */
+    padding: 30px; /* Optional: Add padding inside the box */
+    background: linear-gradient(45deg, #6683e1, #91d3f1);
+    margin: 10px;
+    position: relative; /* Set the position property to enable positioning */
 }
